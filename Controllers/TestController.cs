@@ -13,4 +13,13 @@ public class TestController : ControllerBase
     {
         return Ok("Wrong Result!");
     }
+
+    ///<summary>
+    [HttpGet("TestIt2")]
+    public IActionResult Test2()
+    {
+        return Ok("Right Result!");
+    }
+
+    /// <summary>
 }
