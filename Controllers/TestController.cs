@@ -11,6 +11,6 @@ public class TestController : ControllerBase
     [HttpGet("TestIt")]
     public IActionResult Test()
     {
-        return Ok("Test successful!");
+        return Ok("Wrong Result!");
     }
 }
